@@ -1,0 +1,63 @@
+        @font-face {
+            font-family: 'franciscolucas_briosaregular';
+            src: url('fonts/flbrsa2u-webfont.woff2') format('woff2'),
+                url('fonts/flbrsa2u-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+        @font-face {
+            font-family: 'rieslingregular';
+            src: url('fonts/curvy/riesling-webfont.woff2') format('woff2'),
+                 url('fonts/curvy/riesling-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        
+        }
+*{
+    padding:0px;margin:0px;
+}
+html { 
+    background: url(../images/clouds.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.socialmedia{
+    vertical-align: bottom; width: 1em;height: 1em;border:1px solid red;border-radius: 15px;margin-left: 4px;margin-right: 2px;margin-top:25px;
+}
+        ul{
+            background-color:white;;margin:0px;padding: 0px; height: 6em; text-align: center;
+        }
+        li{
+        list-style: none;display: inline; margin:1em; padding-top:10px;
+        }
+.Viki{
+    font-weight: bold;
+    font-size: 190%;    
+    font-family: 'rieslingregular', Arial, sans-serif;
+                
+}
+.Gosu{
+    font-weight: bold;
+    font-size:190%;   
+    font-family: 'rieslingregular', Arial, sans-serif;
+                 
+}
+.Home{
+    font-weight: bold;
+    font-size:190%;
+    font-family: 'rieslingregular', Arial, sans-serif;
+                
+}
+
+            .heading {
+                font-family: 'franciscolucas_briosaregular', Arial, sans-serif;
+                font-weight:normal;
+                font-style:normal;
+                text-align: center;
+                font-size: 300%;
+                color:red;
+
+                }
